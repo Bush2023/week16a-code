@@ -1,6 +1,8 @@
 pipeline{
     ageny any
-
+tools{
+    'M2_HOME'
+}
         stages {
             stage('maven commands') {
                 steps{
